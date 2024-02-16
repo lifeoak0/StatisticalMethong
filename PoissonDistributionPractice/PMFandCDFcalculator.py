@@ -30,7 +30,7 @@ plt.ylabel('Cumulative Probability')
 plt.xticks(k_values)
 plt.yticks(np.linspace(0, 1, 11))
 plt.grid(axis='y')
-
+#图像绘制
 plt.tight_layout()
 plt.show()
 
