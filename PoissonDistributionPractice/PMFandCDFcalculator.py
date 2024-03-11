@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import poisson
 
 # 设置泊松分布的参数λ
-lambda_val = 3.0  #假设事件的平均发生率为3次..
+lambda_val = 3.0  #假设事件的平均发生率为3次..，
 
 # 计算所提供假设lambda值为3时，PMF概率密度函数和CDF积累分布函数
 k_values = np.arange(0, 10)  #计算0到9次事件发生的概率
