@@ -21,7 +21,7 @@ plt.xlabel('Number of Events (k)')
 plt.ylabel('Probability')
 plt.xticks(k_values)
 plt.grid(axis='y')
-# 绘制积累分布函数
+# 绘制积累分布函数.
 plt.subplot(1, 2, 2)
 plt.step(k_values, cdf_values, where='post', color='green', label='CDF')
 plt.title('Poisson CDF (λ = 3)')
