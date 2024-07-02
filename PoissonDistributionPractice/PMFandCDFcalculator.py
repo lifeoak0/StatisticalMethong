@@ -11,7 +11,7 @@ pmf_values = poisson.pmf(k_values, lambda_val)  #PMF概率质量函数-对于给
 cdf_values = poisson.cdf(k_values, lambda_val)  #CDF积累分布函数-计算事件发生次数小于或者等于某个数值的概率.
 
 # 可视化PMF和CDF
-plt.figure(figsize=(12, 6))
+plt.figure(figsize=(12, 6)).
 
 # 绘制概率质量函数
 plt.subplot(1, 2, 1)
