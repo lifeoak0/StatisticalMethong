@@ -8,7 +8,7 @@ lambda_val = 3.0  #假设事件的平均发生率为3次..，
 # 计算所提供假设lambda值为3时，PMF概率密度函数和CDF积累分布函数
 k_values = np.arange(0, 10)  #计算0到9次事件发生的概率
 pmf_values = poisson.pmf(k_values, lambda_val)  #PMF概率质量函数-对于给定的λ数值，计算特定数量时间发生的概率,
-cdf_values = poisson.cdf(k_values, lambda_val)  #CDF积累分布函数-计算事件发生次数小于或者等于某个数值的概率.。
+cdf_values = poisson.cdf(k_values, lambda_val)  #CDF积累分布函数-计算事件发生次数小于或者等于某个数值的概率.
 
 # 可视化PMF和CDF
 plt.figure(figsize=(12, 6)).
