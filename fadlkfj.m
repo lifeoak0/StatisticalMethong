@@ -1,3 +1,4 @@
+
 T=2;
 t = linspace(-T, T, 1000);
 f = @(t) square(2*pi*t/T);
@@ -26,7 +27,7 @@ disp(an);
 disp('bn =');
 disp(bn);
 
-f_reconstructed = zeros(size(t))
+f_reconstructed = zeros(size(t));
 
 f_reconstructed = f_reconstructed + a0/2;
 
